@@ -1,0 +1,23 @@
+{
+    "READ THIS": "This is not part of the module, it is only here for testing",
+    "READ THIS TOO": "This and the test.py file makes a simple python IDE",
+
+    "window": {
+        "width": 1280,
+        "height": 720,
+        "title": "My IDE Made in GUIMakerP",
+        "color": "pink",
+        "widgets": [
+            {
+                "type": "text",
+                "name": "code"
+            },
+            {
+                "type": "button",
+                "text": "run",
+                "bgcolor": "sky blue",
+                "python": "exec(get_text('code'))"
+            }
+        ]
+    }
+}
